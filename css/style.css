@@ -1,0 +1,720 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+body {
+    padding-top: 128px;
+}
+
+header {
+    width: 100%;
+    height: 128px;
+    position: fixed;
+    top: 0;
+    z-index: 100000000000;
+    background-color: white;
+}
+
+.header-top {
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-top a {
+    color: #252930;
+    font-size: 14px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.header-top a:hover {
+    color: #F87200;
+}
+
+.header-bottom {
+    height: 87px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.text-margin {
+    margin: 0 63px;
+}
+
+.mini-img {
+    width: 158px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+.mini-img:hover {
+    margin-top: -8px;
+}
+
+.block-text {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.block-text a {
+    color: #252930;
+    transition: 0.3s;
+}
+
+.block-text a:hover {
+    color: #F87200;
+}
+
+.text-margin-2 {
+    margin: 0 72px;
+}
+
+.button-1 {
+    width: 189px;
+    height: 44px;
+    border: 1px solid #252930;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.button-1:hover {
+    background-color: #F87200;
+    border: none;
+    color: white;
+}
+
+.big-box {
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 105px;
+}
+
+.big-box-text {
+    height: 620px;
+    width: 698px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.big-box-text-2-2 {
+    height: 620px;
+    width: 698px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    display: none;
+}
+
+.big-img-1 {
+    height: 620px;
+    width: 700px;
+    background-image: url(../image/Rectangle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.text-2 {
+    font-weight: 400;
+    font-size: 56px;
+}
+
+.text-2-2 {
+    font-weight: 400;
+    font-size: 56px;
+}
+
+.big-block-2 {
+    height: 632px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 101px;
+}
+
+.mysterios-block {
+    width: 347px;
+    height: 456px;
+    margin-top: 88px;
+    margin-right: 36px;
+    position: relative;
+}
+
+.image-1 {
+    width: 220px;
+    height: 263px;
+    background-image: url(../image/виктор.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 9px;
+    top: 81px;
+    z-index: 2;
+}
+
+.image-2 {
+    width: 220px;
+    height: 263px;
+    position: absolute;
+    top: -29px;
+    right: 8px;
+    z-index: 1;
+    background-image: url(../image/виктор-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-3 {
+    width: 348px;
+    height: 292px;
+    background-image: url(../image/виктор-4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -61px;
+    left: -73px;
+    z-index: 3;
+}
+
+.image-4 {
+    width: 348px;
+    height: 292px;
+    background-image: url(../image/виктор-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 85px;
+    right: -74px;
+    z-index: 4;
+}
+
+.image-5 {
+    width: 347px;
+    height: 456px;
+    background-image: url(../image/телефон.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 4;
+}
+
+.box-text-block {
+    width: 583px;
+    height: 318px;
+    border: 1px solid #555c68;
+    margin-top: 189px;
+    padding-left: 53px;
+    padding-top: 57px;
+    padding-bottom: 57px;
+}
+
+.text-p {
+    font-size: 19px;
+}
+
+.text-p-2 {
+    font-size: 36px;
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 26px;
+    font-weight: 400;
+}
+
+.circle {
+    height: 12px;
+    width: 12px;
+    background-color: #FF5F00;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.circle-text-box {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.text-circle {
+    color: #252930;
+}
+
+.text-1-box {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.text-1-box img {
+    width: 11px;
+    height: 8px;
+    margin-left: 6px;
+}
+
+.hr-1 {
+    background-color: #FF5F00;
+    border: 1px solid #FF5F00;
+    width: 116px;
+    margin-top: 11px;
+}
+
+.big-box-block-2 {
+    width: 1400px;
+    height: fit-content;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.text-box-2 {
+    font-size: 24px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 18px;
+}
+
+.box-text-22 {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-box-22 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #252930;
+}
+
+.grey-colors {
+    color: #252930;
+    text-align: center;
+}
+
+.mini-image {
+    width: 11px;
+    height: 8px;
+    margin-left: 16px;
+}
+
+.liniya {
+    width: 116px;
+    background-color: #FF5F00;
+    border: 1px solid #FF5F00;
+    margin-top: 13px;
+}
+
+.bigg-box {
+    height: 636px;
+    width: 1360px;
+    margin: 88px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 636px;
+    grid-auto-rows: 453px;
+}
+
+.item-img-1 {
+    width: 453px;
+    height: 418px;
+    background-image: url(../image/рактангал.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #FF5F00;
+    padding-left: 24px;
+    padding-top: 13px;
+}
+
+.item-img-2 {
+    width: 453px;
+    height: 418px;
+    background-image: url(../image/рактангал-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #FF5F00;
+    padding-left: 24px;
+    padding-top: 13px;
+}
+
+.item-img-3 {
+    width: 453px;
+    height: 418px;
+    background-image: url(../image/рактангал-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #FF5F00;
+    padding-left: 24px;
+    padding-top: 13px;
+}
+
+.item-img-1 p {
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.item-img-2 p {
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.item-img-3 p {
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.block-text-item {
+    width: 100%;
+    height: 214px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.margin-top-bottom-text {
+    display: block;
+    margin-top: 31px;
+    margin-bottom: 20px;
+    color: #F87200;
+}
+
+.hr-2 {
+    filter: 20%;
+}
+
+.margin-top-bottom-text-2 {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 45px;
+    color: #F87200;
+}
+
+.no-center {
+    text-align: start;
+}
+
+.big-3-box-block {
+    width: 1400px;
+    height: 336px;
+    padding-left: 52px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.block-box-2-text {
+    height: 100%;
+    width: 359px;
+    padding-top: 36px;
+}
+
+.text-h3 {
+    font-size: 36px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 31px;
+}
+
+.width-liniya {
+    width: 215px;
+}
+
+.box-no-white-big {
+    width: 893px;
+    height: 100%;
+    background-color: #E8E9EA;
+    padding: 78px 68px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-item {
+    width: 215px;
+    height: 100%;
+}
+
+.text-h4 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.width-grey-colors {
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.liniya-2 {
+    margin-top: 12px;
+    margin-bottom: 17px;
+    background-color: black;
+}
+
+.top-100 {
+    margin-top: 0;
+}
+
+.bottom-4 {
+    margin-bottom: 28px;
+}
+
+.top101 {
+    margin-bottom: 19px;
+}
+
+.bottom-14 {
+    margin-bottom: 128px;
+}
+
+.blockk {
+    width: 1126px;
+    height: 563px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.img-big-box-8 {
+    width: 563px;
+    height: 563px;
+    background-image: url(../image/рактангал-5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boxx-block-text {
+    width: 563px;
+    height: 295px;
+    border: 1px solid #252930;
+    padding-left: 65px;
+    padding-top: 62px;
+}
+
+.text-block-boxx {
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 19px;
+}
+
+.text-boxx-2 {
+    font-size: 15px;
+}
+.top44{
+    margin-top: 32px;
+}
+.width-sh{
+    width: 163px;
+}
+.bottom44{
+    margin-bottom: 129px;
+}
+.boxxx-3{
+    width: 1360px;
+    height: 469px;
+    background-color: #F87200;
+    margin: 0 auto;
+    margin-bottom: 96px;
+    display: flex;
+}
+.boxxx-text{
+    width: 447px;
+    height: 100%;
+    padding-top: 140px;
+    padding-left: 32px;
+}
+.boxxx-text h5{
+    font-size: 36px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 75px;
+}
+.black-3{
+    border: 1px solid black;
+    width: 121px;
+}
+.boxxx-image{
+    height: 100%;
+    width: 913px;
+    background-image: url(../image/рактангал-6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.block-big-bottom{
+    height: 460px;
+    width: 100%;
+    padding-left: 40px;
+    margin: 0 auto;
+}
+.textt{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 29px;
+}
+.text-block-box-bot{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+.font-13px{
+    font-size: 13px;
+}
+.font-15px{
+    font-size: 15px;
+}
+.orange-1{
+    color: #F87200;
+}
+.text-block-box{
+    width: fit-content;
+    height: fit-content;
+}
+.biiig-box{
+    width: 487px;
+    height: 460px;
+    padding-top: 29px;
+    padding-left: 32px;
+    background-color: #F87200;
+    position: absolute;
+    right: 0;
+}
+.m-left{
+    margin-left: 262px;
+}
+.font-36px{
+    font-size: 36px;
+    margin-bottom: 34px;
+}
+.image-8-r{
+    width: 240px;
+    height: 246px;
+    background-image: url(../image/рактангал-8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 44px;
+}
+.w-100{
+    width: 145px;
+}
+.blackl{
+    border: 1px solid black;
+}
+footer{
+    height: 197px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 52px;
+    margin-top: 97px;
+    margin-bottom: 15px;
+}
+.block-image-1{
+    width: fit-content;
+    height: fit-content;
+}
+.topp{
+    margin-top: 48px;
+}
+.block-text-box-footer{
+    width: fit-content;
+    height: fit-content;
+}
+.bot-15{
+    margin-bottom: 15px;
+}
+.font-15pxx{
+    font-size: 15px;
+}
+.bot-15px{
+    display: block;
+    margin-bottom: 15px;
+}
+.bot-19{
+    margin-bottom: 19px;
+}
+.media-image-1{
+    width: 40px;
+    height: 35px;
+}
+.www-tv{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+.www-image{
+    width: 16px;
+    height: 13px;
+    margin-right: 16px;
+}
+.lefttt{
+    margin-right: 48px;
+}
+.text-footer-box-left{
+    width: 298px;
+    height: fit-content;
+}
+.bot-27{
+    display: block;
+   margin-bottom: 27px;
+}
+.w-100x{
+    width: 100%;
+}
+.leftt{
+    margin-left: 182px;
+}
+.bot-81{
+    margin-bottom: 81px;
+}
+.left-5{
+    margin-right: 20px;
+}
+.media-block-2{
+    display: none;
+}
+.flex-end{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+}
+.flex-block-end{
+    display: flex;
+    justify-content: flex-end;
+}
+.end{
+    display: block;
+}
+.media-3{
+    display: none;
+}
